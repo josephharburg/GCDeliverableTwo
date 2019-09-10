@@ -23,7 +23,7 @@ namespace GCDeliverableTwoJH
                     switch (response)
                     {
                         case (1):
-                            Output(1, "Ok you're in the mood for Action! You should go Stock Car Racing");
+                            Output(1, "Ok you're in the mood for action! You should go Stock Car Racing");
                             wrongResponse = false;
                             break;
                         case (2):
@@ -39,7 +39,7 @@ namespace GCDeliverableTwoJH
                             wrongResponse = false;
                             break;
                         default:
-                            Console.WriteLine("Please select only a number between 1 and 4\n");
+                            Console.WriteLine("Please select only a number between 1 and 4.\n");
                             continue;
                     }
                 }
