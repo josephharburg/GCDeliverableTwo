@@ -23,7 +23,7 @@ namespace GCDeliverableTwoJH
                     switch (response)
                     {
                         case (1):
-                            Output(1, "Ok your in a mood for Action! You should go stock car racing");
+                            Output(1, "Ok you're in the mood for Action! You should go Stock Car Racing");
                             wrongResponse = false;
                             break;
                         case (2):
@@ -49,7 +49,7 @@ namespace GCDeliverableTwoJH
                 }
                 
             }
-            Console.WriteLine("Thanks for asking! Bye!");
+            Console.WriteLine("\nThanks for using my program, I hope you enjoy the weekend!");
             
         }
         private static void Output(int mood, string activity)
@@ -65,12 +65,12 @@ namespace GCDeliverableTwoJH
                     Console.WriteLine("{0} and travel in your sneakers!", activity);
                     wrongResponse = false;
                 }
-                else if (numPeople > 1 && numPeople < 5)
+                else if (numPeople > 0 && numPeople < 5)
                 {
                     Console.WriteLine("{0} and travel in a sedan!", activity);
                     wrongResponse = false;
                 }
-                else if (numPeople > 4 && numPeople < 10)
+                else if (numPeople > 4 && numPeople < 11)
                 {
                     Console.WriteLine("{0} and travel in a volkswagon bus!", activity);
                     wrongResponse = false;
