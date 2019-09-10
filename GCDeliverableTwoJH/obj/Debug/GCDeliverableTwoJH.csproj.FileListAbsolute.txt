@@ -1,0 +1,7 @@
+C:\Users\josep\Desktop\coding\C#\GCDeliverableTwoJH\GCDeliverableTwoJH\GCDeliverableTwoJH\obj\Debug\GCDeliverableTwoJH.csprojAssemblyReference.cache
+C:\Users\josep\Desktop\coding\C#\GCDeliverableTwoJH\GCDeliverableTwoJH\GCDeliverableTwoJH\obj\Debug\GCDeliverableTwoJH.csproj.CoreCompileInputs.cache
+C:\Users\josep\Desktop\coding\C#\GCDeliverableTwoJH\GCDeliverableTwoJH\GCDeliverableTwoJH\bin\Debug\GCDeliverableTwoJH.exe.config
+C:\Users\josep\Desktop\coding\C#\GCDeliverableTwoJH\GCDeliverableTwoJH\GCDeliverableTwoJH\bin\Debug\GCDeliverableTwoJH.exe
+C:\Users\josep\Desktop\coding\C#\GCDeliverableTwoJH\GCDeliverableTwoJH\GCDeliverableTwoJH\bin\Debug\GCDeliverableTwoJH.pdb
+C:\Users\josep\Desktop\coding\C#\GCDeliverableTwoJH\GCDeliverableTwoJH\GCDeliverableTwoJH\obj\Debug\GCDeliverableTwoJH.exe
+C:\Users\josep\Desktop\coding\C#\GCDeliverableTwoJH\GCDeliverableTwoJH\GCDeliverableTwoJH\obj\Debug\GCDeliverableTwoJH.pdb
