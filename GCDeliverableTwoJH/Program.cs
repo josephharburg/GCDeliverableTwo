@@ -16,26 +16,26 @@ namespace GCDeliverableTwoJH
             {
                 Console.WriteLine("Hi! What are you in the mood for this weekend?\n " +
                     "Please select a number!\n" +
-                    "1 for Action\n2 for chilling\n3 for danger\n4 for good food.");
+                    "1 for Action\n2 for Chilling\n3 for Danger\n4 for Good Food.");
                 try
                 {
                     response = Convert.ToInt32(Console.ReadLine());
                     switch (response)
                     {
                         case (1):
-                            Output(1, "go stock car racing");
+                            Output(1, "Ok your in a mood for Action! You should go stock car racing");
                             wrongResponse = false;
                             break;
                         case (2):
-                            Output(2, "go hiking");
+                            Output(2, "Ok you want to chill? You should go hiking");
                             wrongResponse = false;
                             break;
                         case (3):
-                            Output(3, "go Skydiving");
+                            Output(3, "In a mood for danger? You should go Skydiving");
                             wrongResponse = false;
                             break;
                         case (4):
-                            Output(4, "to Taco Bell");
+                            Output(4, "In a mood for good food huh? You should go to Taco Bell");
                             wrongResponse = false;
                             break;
                         default:
@@ -55,28 +55,29 @@ namespace GCDeliverableTwoJH
         private static void Output(int mood, string activity)
         {
             bool wrongResponse = true;
-            Console.WriteLine("How many people will be with you?");
-            int numPeople = Convert.ToInt32(Console.ReadLine());
             while (wrongResponse)
             {
+            Console.WriteLine("How many people will be with you?");
+            int numPeople = Convert.ToInt32(Console.ReadLine());
+           
                 if (numPeople < 1 && numPeople > -1)
                 {
-                    Console.WriteLine("You should {0} in your sneakers!", activity);
+                    Console.WriteLine("{0} and travel in your sneakers!", activity);
                     wrongResponse = false;
                 }
                 else if (numPeople > 1 && numPeople < 5)
                 {
-                    Console.WriteLine("You should {0} in a sedan!", activity);
+                    Console.WriteLine("{0} and travel in a sedan!", activity);
                     wrongResponse = false;
                 }
                 else if (numPeople > 4 && numPeople < 10)
                 {
-                    Console.WriteLine("You should go {0} in a volkswagon bus!", activity);
+                    Console.WriteLine("{0} and travel in a volkswagon bus!", activity);
                     wrongResponse = false;
                 }
                 else if (numPeople > 10)
                 {
-                    Console.WriteLine("You should go {0} in an airplane!", activity);
+                    Console.WriteLine("{0} and travel in an airplane!", activity);
                     wrongResponse = false;
                 }
                 else
