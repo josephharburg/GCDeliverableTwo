@@ -60,11 +60,11 @@ namespace GCDeliverableTwoJH
             {
                 Console.WriteLine("You should {0} in a sedan!", activity);
             }
-            else if (numPeople > 5  && numPeople < 10)
+            else if (numPeople > 5 && numPeople < 10)
             {
                 Console.WriteLine("You should go {0} in a volkswagon bus!", activity);
             }
-            else if (numPeople > 10)    
+            else if (numPeople > 10)
             {
                 Console.WriteLine("You should go {0} in an airplane!", activity);
             }
